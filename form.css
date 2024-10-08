@@ -1,0 +1,94 @@
+#myform{
+    text-align: center;
+    margin-top: 100px;
+    display: block;
+    width: 300px;
+    border: radius 5px;
+    border-style:outset;
+    margin-left: 500px;
+    padding: 10px;
+    background-color: lightgray;
+}
+body{
+    background: linear-gradient(to right, #d3d3d3, #a9a9a9, #696969, #404040);
+;
+}
+.label{
+    font-family:  Helvetica;
+    font-size: 1.0em;
+    font-weight: 20px;
+    letter-spacing: 2px;
+}
+.input{
+    border-radius: 5px;
+    box-shadow: gray;
+    margin-bottom: 20px;
+    width:fit-content;
+    border: 2px solid #ccc; 
+    transition: border-color 0.3s;
+}  
+.input:focus {
+    border-color: #3498db;       
+    outline: none;                
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+h1{
+    font-family: Arial;
+    letter-spacing: 3px;
+    color: black;
+    text-align: center;
+    animation: slideIn 2s ease-in-out ;
+}
+button{
+    border-radius: 10px;
+    color: black;
+    background-color: gray;
+    height: 25px;
+    width: 70px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover{
+    background-color: aliceblue;   /* Darker color on hover */
+    transform: scale(1.05);  
+
+}
+.login{
+    font-family: Helvetica;
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-size: 1.0em;
+    color: black;
+}
+.login:hover{
+    background-color: aliceblue;
+}
+h3{
+    font-family: Arial;
+    font-size: 1.0em;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+p{
+    font-family: Arial;
+    font-size: 2.0em;
+    text-align: center;
+    animation: slideIn 2s ease-in-out ;
+}
